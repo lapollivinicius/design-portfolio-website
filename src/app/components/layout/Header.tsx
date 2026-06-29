@@ -12,9 +12,9 @@ export default function Header() {
 
         <div className="container">
 
-          <div className="flex items-center justify-center">
+          <div className="flex items-center justify-center max-md:justify-start">
 
-            <div className="flex gap-2 items-center font-bold">
+            <div className="flex gap-2 items-center font-bold ">
               <Link className={"text-hover hover:tracking-wide transition-all duration-300" + (Path === "/" ? " active " : "")} href={"/"}>ESTÚDIO</Link>
               <div className="bg-white h-4 w-0.5"></div>
 

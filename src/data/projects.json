@@ -3,6 +3,7 @@
     {
       "id": 1,
       "title": "PROJETO 01 — BRAND IDENTITY",
+      "slug": "1-project",
       "year": 2026,
       "copy": "Criação de uma identidade visual completa para uma marca digital em crescimento.",
       "category": "branding",
@@ -19,6 +20,7 @@
     {
       "id": 2,
       "title": "PROJETO 02 — MOTION CAMPAIGN",
+      "slug": "2-project",
       "year": 2022,
       "copy": "Campanha em motion design para lançamento de produto digital.",
       "category": "motion",
@@ -35,6 +37,7 @@
     {
       "id": 3,
       "title": "PROJETO 03 — VISUAL SYSTEM",
+      "slug": "3-project",
       "year": 2021,
       "copy": "Sistema visual modular para marca SaaS em expansão global.",
       "category": "logo",
@@ -51,6 +54,7 @@
     {
       "id": 4,
       "title": "PROJETO 01 — BRAND IDENTITY 123123123",
+      "slug": "4-project",
       "copy": "Criação de uma identidade visual completa para uma marca digital em crescimento.",
       "category": "branding",
       "year": 2017,
@@ -67,6 +71,7 @@
     {
       "id": 5,
       "title": "PROJETO 02 — MOTION CAMPAIGN",
+      "slug": "5-project",
       "year": 2025,
       "copy": "Campanha em motion design para lançamento de produto digital.",
       "category": "motion",
@@ -83,6 +88,7 @@
     {
       "id": 6,
       "title": "PROJETO 03 — VISUAL SYSTEM",
+      "slug": "6-project",
       "copy": "Sistema visual modular para marca SaaS em expansão global.",
       "year": 2024,
       "category": "logo",
@@ -99,6 +105,7 @@
     {
       "id": 7,
       "title": "PROJETO 01 — BRAND IDENTITY 345345345",
+      "slug": "7-project",
       "year": 2025,
       "copy": "Criação de uma identidade visual completa para uma marca digital em crescimento.",
       "category": "branding",
@@ -115,6 +122,7 @@
     {
       "id": 8,
       "title": "PROJETO 02 — MOTION CAMPAIGN",
+      "slug": "8-project",
       "year": 2021,
       "copy": "Campanha em motion design para lançamento de produto digital.",
       "category": "motion",
@@ -131,6 +139,7 @@
     {
       "id": 9,
       "title": "PROJETO 03 — VISUAL SYSTEM",
+      "slug": "9-project",
       "year": 2022,
       "copy": "Sistema visual modular para marca SaaS em expansão global.",
       "category": "logo",

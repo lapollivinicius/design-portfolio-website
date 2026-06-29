@@ -10,17 +10,13 @@ export default function Home() {
         <Logo />
         <Header />
 
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 hover:scale-105 active:scale-100 hover:-translate-y-0.5 transition-all duration-500 ease-out z-50">
+        <div className="fixed bottom-10 left-1/2 -translate-x-1/2 hover:scale-105 active:scale-100 hover:-translate-y-0.5 transition-all duration-500 ease-out z-50">
           <ButtonHud />
           
         </div>
 
         <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-50 hidden">
           <StickHud />
-        </div>
-
-        <div className="absolute bottom-45 left-140 scale-200">
-          <Logo />
         </div>
 
         <svg width="0" height="0" className="absolute">

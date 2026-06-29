@@ -5,9 +5,12 @@ import { useState } from "react";
 import Project from "./Project";
 import Service from "./Service";
 import Contact from "./Contact";
+import Footer from "./Footer";
+import { useEffect } from "react";
+import {  useSearchParams } from "next/navigation";
 
 const items = [
-  {id: "home", label: "Home"},
+  { id: "home", label: "Home"},
   { id: "about", label: "Sobre" },
   { id: "project", label: "Projetos" },
   { id: "service", label: "Serviços" },
@@ -15,15 +18,23 @@ const items = [
 ];
 
 export default function Design() {
+
+  const path = useSearchParams().get("path")
+
   const [active, setActive] = useState<string>("home");
+
+  useEffect(() => {
+    setActive(path ?? "home");
+  }, [path]);
 
   return (
     <section className="w-full h-screen -mt-15 max-lg:h-auto max-lg:mt-20 flex justify-center items-center">
       <div className="container">
-        <div>
+        <div className="relative">
           <div className="flex justify-between flex-wrap max-lg:gap-15">
             <nav className="flex flex-col gap-1 items-baseline justify-center">
 
+              <p className="text-sm font-bold -mb-1">MENU</p>
               {items.map((item) => (
                 <button
                   key={item.id}
@@ -61,7 +72,10 @@ export default function Design() {
               {active === "service" && <Service />}
               {active === "contact" && <Contact />}
             </aside>
+
           </div>
+
+          <Footer />
         </div>
       </div>
     </section>
