@@ -1,0 +1,148 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "PROJETO 01 — BRAND IDENTITY",
+      "year": 2026,
+      "copy": "Criação de uma identidade visual completa para uma marca digital em crescimento.",
+      "category": "branding",
+      "description": "O projeto consistiu no desenvolvimento de uma identidade visual moderna e consistente, focada em posicionamento premium no mercado digital.",
+      "solution": "Foi criada uma identidade baseada em minimalismo e tipografia forte, garantindo escalabilidade em múltiplas plataformas.",
+      "services": [
+        "Branding",
+        "Identidade Visual",
+        "Direção de Arte"
+      ],
+      "images": "projeto-01-brand-identity",
+      "video": "https://videos.seusite.com/projeto-01.mp4"
+    },
+    {
+      "id": 2,
+      "title": "PROJETO 02 — MOTION CAMPAIGN",
+      "year": 2022,
+      "copy": "Campanha em motion design para lançamento de produto digital.",
+      "category": "motion",
+      "description": "Desenvolvimento de peças animadas para campanha de lançamento com foco em impacto visual e retenção de atenção.",
+      "solution": "Utilizamos animações fluidas e tipografia dinâmica para reforçar a mensagem da marca em poucos segundos.",
+      "services": [
+        "Motion Design",
+        "Direção Criativa",
+        "Storyboarding"
+      ],
+      "images": "projeto-02-motion-campaign",
+      "video": "https://videos.seusite.com/projeto-02.mp4"
+    },
+    {
+      "id": 3,
+      "title": "PROJETO 03 — VISUAL SYSTEM",
+      "year": 2021,
+      "copy": "Sistema visual modular para marca SaaS em expansão global.",
+      "category": "logo",
+      "description": "Criação de um sistema visual escalável para aplicação em produto digital, marketing e redes sociais.",
+      "solution": "Foi desenvolvido um design system com grid flexível, paleta adaptativa e componentes reutilizáveis.",
+      "services": [
+        "Design System",
+        "UI Design",
+        "UX Strategy"
+      ],
+      "images": "projeto-03-visual-system",
+      "video": "https://videos.seusite.com/projeto-03.mp4"
+    },
+    {
+      "id": 4,
+      "title": "PROJETO 01 — BRAND IDENTITY 123123123",
+      "copy": "Criação de uma identidade visual completa para uma marca digital em crescimento.",
+      "category": "branding",
+      "year": 2017,
+      "description": "O projeto consistiu no desenvolvimento de uma identidade visual moderna e consistente, focada em posicionamento premium no mercado digital.",
+      "solution": "Foi criada uma identidade baseada em minimalismo e tipografia forte, garantindo escalabilidade em múltiplas plataformas.",
+      "services": [
+        "Branding",
+        "Identidade Visual",
+        "Direção de Arte"
+      ],
+      "images": "projeto-01-brand-identity",
+      "video": "https://videos.seusite.com/projeto-01.mp4"
+    },
+    {
+      "id": 5,
+      "title": "PROJETO 02 — MOTION CAMPAIGN",
+      "year": 2025,
+      "copy": "Campanha em motion design para lançamento de produto digital.",
+      "category": "motion",
+      "description": "Desenvolvimento de peças animadas para campanha de lançamento com foco em impacto visual e retenção de atenção.",
+      "solution": "Utilizamos animações fluidas e tipografia dinâmica para reforçar a mensagem da marca em poucos segundos.",
+      "services": [
+        "Motion Design",
+        "Direção Criativa",
+        "Storyboarding"
+      ],
+      "images": "projeto-02-motion-campaign",
+      "video": "https://videos.seusite.com/projeto-02.mp4"
+    },
+    {
+      "id": 6,
+      "title": "PROJETO 03 — VISUAL SYSTEM",
+      "copy": "Sistema visual modular para marca SaaS em expansão global.",
+      "year": 2024,
+      "category": "logo",
+      "description": "Criação de um sistema visual escalável para aplicação em produto digital, marketing e redes sociais.",
+      "solution": "Foi desenvolvido um design system com grid flexível, paleta adaptativa e componentes reutilizáveis.",
+      "services": [
+        "Design System",
+        "UI Design",
+        "UX Strategy"
+      ],
+      "images": "projeto-03-visual-system",
+      "video": "https://videos.seusite.com/projeto-03.mp4"
+    },
+    {
+      "id": 7,
+      "title": "PROJETO 01 — BRAND IDENTITY 345345345",
+      "year": 2025,
+      "copy": "Criação de uma identidade visual completa para uma marca digital em crescimento.",
+      "category": "branding",
+      "description": "O projeto consistiu no desenvolvimento de uma identidade visual moderna e consistente, focada em posicionamento premium no mercado digital.",
+      "solution": "Foi criada uma identidade baseada em minimalismo e tipografia forte, garantindo escalabilidade em múltiplas plataformas.",
+      "services": [
+        "Branding",
+        "Identidade Visual",
+        "Direção de Arte"
+      ],
+      "images": "projeto-01-brand-identity",
+      "video": "https://videos.seusite.com/projeto-01.mp4"
+    },
+    {
+      "id": 8,
+      "title": "PROJETO 02 — MOTION CAMPAIGN",
+      "year": 2021,
+      "copy": "Campanha em motion design para lançamento de produto digital.",
+      "category": "motion",
+      "description": "Desenvolvimento de peças animadas para campanha de lançamento com foco em impacto visual e retenção de atenção.",
+      "solution": "Utilizamos animações fluidas e tipografia dinâmica para reforçar a mensagem da marca em poucos segundos.",
+      "services": [
+        "Motion Design",
+        "Direção Criativa",
+        "Storyboarding"
+      ],
+      "images": "projeto-02-motion-campaign",
+      "video": "https://videos.seusite.com/projeto-02.mp4"
+    },
+    {
+      "id": 9,
+      "title": "PROJETO 03 — VISUAL SYSTEM",
+      "year": 2022,
+      "copy": "Sistema visual modular para marca SaaS em expansão global.",
+      "category": "logo",
+      "description": "Criação de um sistema visual escalável para aplicação em produto digital, marketing e redes sociais.",
+      "solution": "Foi desenvolvido um design system com grid flexível, paleta adaptativa e componentes reutilizáveis.",
+      "services": [
+        "Design System",
+        "UI Design",
+        "UX Strategy"
+      ],
+      "images": "projeto-03-visual-system",
+      "video": "https://videos.seusite.com/projeto-03.mp4"
+    }
+  ]
+}
