@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
 
-    <header className="h-15 w-full flex justify-center items-center">
+    <header className="h-15 w-full flex justify-center items-center z-50">
 
         <div className="container">
 
@@ -22,7 +22,7 @@ export default function Header() {
 
               <div className="bg-white h-4 w-0.5"></div>
 
-              <Link title="EM BREVE" className={"opacity-50" + (Path.startsWith("/shop") ? " active " : "")} href={"/design"}>SHOP</Link>
+              <Link title="EM BREVE" className={"opacity-50" + (Path.startsWith("/shop") ? " active " : "")} href={"/design"}>LOJA</Link>
               
             </div>
 

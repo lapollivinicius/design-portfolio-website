@@ -1,23 +1,24 @@
+import Link from "next/link";
 import Header from "./components/layout/Header";
-import ButtonHud from "./components/ui/ButtonHud";
 import Logo from "./components/ui/Logo";
-import StickHud from "./components/ui/StickHub";
 import "./globals.css"
+import Image from "next/image";
 
 export default function Home() {
   return (
     <div className="bg-dots w-screen h-screen">
         <Logo />
+
         <Header />
 
-        <div className="fixed bottom-10 left-1/2 -translate-x-1/2 hover:scale-105 active:scale-100 hover:-translate-y-0.5 transition-all duration-500 ease-out z-50">
-          <ButtonHud />
-          
-        </div>
-
-        <div className="absolute bottom-10 left-1/2 -translate-x-1/2 z-50 hidden">
-          <StickHud />
-        </div>
+        <main className="h-screen -mt-15 flex justify-center cursor-pointer text-center">
+          <div className="flex flex-col items-center justify-center">
+            <p className="font-bold">oii, amigos!</p>
+            <h1 className="font-black text-7xl max-lg:text-4xl tracking-tighter hover:tracking-tight transition-all duration-300">SEJAM BEM VINDOS</h1>
+            <p>teremos novidades em breve por aqui, você pode acessar a aba <Link className="text-hover font-bold" href={"/design"} >DESIGN ↗</Link></p>
+            <p className="font-light opacity-40">com carinho, equipe cadeirada :)</p>
+          </div>
+        </main>
 
         <svg width="0" height="0" className="absolute">
         <filter id="distortion">
