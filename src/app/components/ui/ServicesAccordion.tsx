@@ -39,6 +39,8 @@ export default function ServicesAccordion() {
       {items.map((item) => (
         <div
           onClick={() => setActive(active === item.id ? 0 : item.id)}
+          onMouseEnter={() => setActive(active === item.id ? 0 : item.id)}
+          onMouseLeave={() => setActive(0)}
           key={item.title}
           className="flex flex-col gap-3 items-end justify-center cursor-pointer overflow-hidden"
         >

@@ -17,6 +17,10 @@ export default function Home() {
             <h1 className="font-black text-7xl max-lg:text-4xl tracking-tighter hover:tracking-tight transition-all duration-300">SEJAM BEM VINDOS</h1>
             <p>teremos novidades em breve por aqui, você pode acessar a aba <Link className="text-hover font-bold" href={"/design"} >DESIGN ↗</Link></p>
             <p className="font-light opacity-40">com carinho, equipe cadeirada :)</p>
+
+            <iframe src="https://trex-runner.com/" width="600" height="400" frameBorder="0" allowFullScreen></iframe>
+
+
           </div>
         </main>
 
