@@ -12,6 +12,7 @@ type Props = {
     rotation: number;
     index: number,
     z: number;
+    inverted?: number
   };
   
   parentRef: React.RefObject<HTMLDivElement | null>;
@@ -42,9 +43,10 @@ export default function Sticky({
       style={{
         position: "absolute",
         zIndex: sticky.z,
-        scale: sticky.scale
+        scale: sticky.scale,
+        scaleX: sticky.inverted
       }}
-      className="w-52 rounded-xl  cursor-grab select-none"
+      className=" cursor-grab select-none"
     >
       <img className="pointer-events-none drop-shadow-md drop-shadow-[#00000045]" src={`/sticky/sticky-${sticky.index}.webp`} alt="123" />
 

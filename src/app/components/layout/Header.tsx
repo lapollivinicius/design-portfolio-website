@@ -49,7 +49,7 @@ export default function Header() {
             >
               <div className="w-20 h-6 relative overflow-hidden">
                 <p className={` w-20 transition-all duration-200 absolute ${openTooltip ? "top-0" : "-top-full"}`}>LOJA</p>
-                <p className={` w-20 transition-all duration-200 absolute ${openTooltip ? "top-full" : "top-0"}`}>EM BREVE</p>
+                <p className={` w-20 transition-all duration-200 absolute text-main ${openTooltip ? "top-full" : "top-0"}`}>EM BREVE</p>
               </div>
             </Link>
           </div>

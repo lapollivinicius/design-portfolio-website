@@ -1,36 +1,54 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Design Portfolio Website
 
-## Getting Started
+## About
 
-First, run the development server:
+This project was built as a way to improve my front-end development skills. It is the first personal project that I completed from start to finish, and it represents an important step in my learning process.
+
+## Tech Stack
+
+The application was developed with:
+
+* Next.js
+* React
+* Tailwind CSS
+* Motion (Framer Motion)
+
+The interface follows a minimal design, but it also includes an interactive feature inspired by a desktop environment. On the home page, visitors can drag and move decorative objects, such as a chair and a table, creating a playful interaction instead of a completely static experience.
+
+Throughout the development, I focused on understanding the technologies rather than simply assembling the project. I used AI only as a learning assistant when I needed help with concepts or APIs that I had not yet mastered, such as some Motion animations. The implementation and project structure were developed as part of my own learning process.
+
+## Running the Project
+
+Using Bun:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+bunx next build
+bunx next start
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Using npm:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npx next build
+npx next start
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+For development:
 
-## Learn More
+```bash
+bun dev
 
-To learn more about Next.js, take a look at the following resources:
+# or
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+npm run dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Live Demo
 
-## Deploy on Vercel
+The project is available online at:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+https://cadeiradaestudio.com
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Purpose
+
+The main goal of this project was to practice building a complete modern web application with Next.js while exploring responsive layouts, animations, component organization, and user interaction. More than creating a portfolio website, it served as a practical environment to experiment with front-end development techniques and improve my workflow.

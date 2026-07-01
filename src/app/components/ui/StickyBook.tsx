@@ -24,7 +24,7 @@ export default function StickyBook() {
     const { width, height } = parentRef.current.getBoundingClientRect();
 
     const area = width * height;
-    const length = Math.floor(area / 30_000)
+    const length = Math.floor(area / 40_000)
 
     const data = Array.from({ length }, (_, i) => ({
       id: i,
@@ -33,8 +33,9 @@ export default function StickyBook() {
       y: Math.random() * (height - 268),
       rotation: Math.random() * 8 - 4,
       z: Math.floor(Math.random() * 5) + 1,
-      scale: 0.8,
-      index: Math.floor(Math.random() * 3)
+      scale: 0.6,
+      index: Math.floor(Math.random() * 3),
+      inverted: Math.random() < 0.5 ? -1 : 1
     }));
 
     setStickies(data);
