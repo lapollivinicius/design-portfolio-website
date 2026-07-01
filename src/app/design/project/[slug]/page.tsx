@@ -1,7 +1,7 @@
 import Footer from "@/app/components/layout/Footer";
 import Header from "@/app/components/layout/Header";
+import ProjectDisplay from "@/app/components/ui/ProjectDisplay";
 import { projects } from "@/data/projects.json"
-import Link from "next/link";
 
 export default async function Page({
   params,
@@ -23,12 +23,10 @@ export default async function Page({
     <div>
       <Header />
       <main className="text-white">
-        <Link href={"/design?path=project"}> ← VOLTAR</Link>
-        <h1>{project.title}</h1>
-        <p>{project.copy}</p>
-        <p>{project.year}</p>
+        
+        <ProjectDisplay data={project} />
       </main>
-      <Footer />
+      <Footer className="flex w-full justify-center " />
     </div>
   );
 }

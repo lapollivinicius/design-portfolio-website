@@ -12,15 +12,15 @@ export default function About() {
       </p>
       <div className="flex gap-8">
         <div className="flex flex-col items-center">
-          <p className="text-4xl font-black text-(--color-main)">+10</p>
+          <p className="text-4xl font-black text-main">+10</p>
           <p className="text-center text-[11px] leading-3.5 font-bold">ANOS DE <br /> EXPERIÊNCIA</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-4xl font-black text-(--color-main)">+80</p>
+          <p className="text-4xl font-black text-main">+80</p>
           <p className="text-center text-[11px] leading-3.5 font-bold">PROJETOS <br/> ENTREGUES</p>
         </div>
         <div className="flex flex-col items-center">
-          <p className="text-4xl font-black text-(--color-main)">+10</p>
+          <p className="text-4xl font-black text-main">+10</p>
           <p className="text-center text-[11px] leading-3.5 font-bold">PROFISSIONAIS <br/> ESPECIALIZADOS</p>
         </div>
       </div>

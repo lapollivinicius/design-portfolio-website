@@ -4,6 +4,7 @@
   --color-background: #000000;
   --color-foreground: #ffffff;
   --color-main: #ff0000;
+  --animation-swap: swap 500ms ease forwards;
 }
 
 body {
@@ -102,3 +103,13 @@ body::selection {
 
   pointer-events: none;
 }
+
+@keyframes swap {
+  from {
+    left: 0%;
+  }
+  to {
+    left: 100%;
+  }
+}
+

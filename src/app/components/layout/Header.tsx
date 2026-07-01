@@ -8,7 +8,7 @@ export default function Header() {
 
   return (
 
-    <header className="h-15 w-full flex justify-center items-center z-50">
+    <header id="header" className="h-15 w-full flex justify-center items-center z-50">
 
         <div className="container">
 

@@ -1,4 +1,4 @@
-import ProjectView from "../ui/ProjectView";
+import ProjectSection from "../ui/ProjectSection";
 
 export default function Project() {
   return (
@@ -7,7 +7,7 @@ export default function Project() {
         ALGUNS <br /> PROJETOS
       </h1>
 
-      <ProjectView />
+      <ProjectSection />
 
       <a
         href="http://behance.net/cadeiradaestudio"

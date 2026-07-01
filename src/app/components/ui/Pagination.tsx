@@ -21,7 +21,7 @@ export default function Pagination({
   };
 
   return (
-    <div className="w-full flex justify-between font-bold text-[12px]">
+    <div className="w-full flex justify-between font-bold text-md">
       <button className="text-hover cursor-pointer tracking-tighter hover:tracking-tight transition-all duration-300" onClick={() => handleChange("prev")}>
         ANTERIOR
       </button>

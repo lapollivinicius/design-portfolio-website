@@ -44,23 +44,22 @@ export default function Design() {
                     active === item.id ? "opacity-80" : ""
                   }`}
                 >
-                  <span
+                  <div
                     className={`inline-block transition-all duration-200 ease-out  ${
                       active === item.id
                         ? "scale-100 rotate-0"
                         : "scale-0 rotate-180"
                     }`}
                   >
-                    <Star className="fill-main h-full p-1 opacity-100" />
-                  </span>
-
-                  <span
-                    className={`-ml-15 transition-all duration-300 ${
-                      active === item.id ? "ml-3" : ""
+                    <Star className="fill-main h-15 p-1 opacity-100" />
+                  </div>
+                  <p
+                    className={`-translate-x-15 transition-all duration-300 ${
+                      active === item.id ? "translate-x-0" : ""
                     }`}
                   >
                     {item.label}
-                  </span>
+                  </p>
                 </button>
               ))}
 
@@ -76,7 +75,7 @@ export default function Design() {
 
           </div>
 
-          <Footer />
+          <Footer className="lg:fixed lg:bottom-10 w-full" />
         </div>
       </div>
     </section>
