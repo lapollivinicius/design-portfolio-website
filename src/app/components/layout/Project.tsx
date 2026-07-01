@@ -1,7 +1,9 @@
+import { FadeUp } from "../animations/FadeUp";
 import ProjectSection from "../ui/ProjectSection";
 
 export default function Project() {
   return (
+    <FadeUp >
     <div className="h-full w-full flex flex-col justify-center items-end gap-5">
       <h1 className="text-5xl font-extrabold text-right">
         ALGUNS <br /> PROJETOS
@@ -18,5 +20,6 @@ export default function Project() {
         VEJA MAIS NO NOSSO BEHANCE ↗
       </a>
     </div>
+    </FadeUp>
   );
 }

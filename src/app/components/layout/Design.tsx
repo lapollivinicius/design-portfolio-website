@@ -9,15 +9,14 @@ import Footer from "./Footer";
 import { useEffect } from "react";
 import {  useSearchParams } from "next/navigation";
 import Star from "../ui/Star";
-
-
+import { FadeUp } from "../animations/FadeUp";
 
 const items = [
-  { id: "home", label: "Home"},
-  { id: "about", label: "Sobre" },
-  { id: "project", label: "Projetos" },
-  { id: "service", label: "Serviços" },
-  { id: "contact", label: "Contato" },
+  { index: 0, id: "home", label: "Home"},
+  { index: 1, id: "about", label: "Sobre" },
+  { index: 2, id: "project", label: "Projetos" },
+  { index: 3, id: "service", label: "Serviços" },
+  { index: 4, id: "contact", label: "Contato" },
 ];
 
 export default function Design() {
@@ -25,6 +24,7 @@ export default function Design() {
   const path = useSearchParams().get("path")
 
   const [active, setActive] = useState<string>("home");
+
 
   useEffect(() => {
     setActive(path ?? "home")
@@ -39,35 +39,36 @@ export default function Design() {
 
               <p className="text-sm font-bold -mb-1">MENU</p>
               {items.map((item) => (
-                <button
-                  key={item.id}
-                  onClick={() => setActive(item.id)}
-                  className={`flex text-6xl uppercase font-extrabold tracking-tighter cursor-pointer transition-all duration-300 hover:tracking-wide ${
-                    active === item.id ? "opacity-80" : ""
-                  }`}
-                >
-                  <div
-                    className={`inline-block transition-all duration-200 ease-out  ${
-                      active === item.id
-                        ? "scale-100 rotate-0"
-                        : "scale-0 rotate-180"
+                <FadeUp key={item.id} delay={(item.index / 10)} >
+                  <button
+                    onClick={() => setActive(item.id)}
+                    className={`flex text-6xl uppercase font-extrabold tracking-tighter cursor-pointer transition-all duration-300 hover:tracking-wide ${
+                      active === item.id ? "opacity-80" : ""
                     }`}
                   >
-                    <Star className="fill-main h-15 p-1 opacity-100" />
-                  </div>
-                  <p
-                    className={`-translate-x-15 transition-all duration-300 ${
-                      active === item.id ? "translate-x-0" : ""
-                    }`}
-                  >
-                    {item.label}
-                  </p>
-                </button>
+                    <div
+                      className={`inline-block transition-all duration-200 ease-out  ${
+                        active === item.id
+                          ? "scale-100 rotate-0"
+                          : "scale-0 rotate-180"
+                      }`}
+                    >
+                      <Star className="fill-main h-15 p-1 opacity-100" />
+                    </div>
+                    <p
+                      className={`-translate-x-15 transition-all duration-300  ${
+                        active === item.id ? "translate-x-0" : ""
+                      }`}
+                    >
+                      {item.label}
+                    </p>
+                  </button>
+                </FadeUp>
               ))}
 
             </nav>
 
-            <aside className="w-140 max-[1086px]:w-full mb-10">
+            <aside className="w-140 max-[1086px]:w-full mb-10"> 
               {active === "home" && <Hero />}
               {active === "about" && <About />}
               {active === "project" && <Project />}

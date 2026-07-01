@@ -1,5 +1,8 @@
+import { FadeUp } from "../animations/FadeUp";
+
 export default function About() {
   return (
+    <FadeUp >
     <div className="h-full w-full flex flex-col justify-center items-end gap-5">
       <h1 className="text-5xl font-extrabold text-right">
         NÓS, COMO <br /> UM ESTÚDIO
@@ -25,5 +28,6 @@ export default function About() {
         </div>
       </div>
     </div>
+    </FadeUp>
   );
 }

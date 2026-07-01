@@ -25,7 +25,7 @@ export default function RootLayout({
     >
       <body className="bg-dots">
         <ConsoleSignature />
-        {children}
+          {children}
       </body>
     </html>
   );

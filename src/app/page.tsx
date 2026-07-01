@@ -3,8 +3,8 @@ import Link from "next/link";
 import StickyBook from "./components/ui/StickyBook";
 import Header from "./components/layout/Header";
 import Logo from "./components/ui/Logo";
-import { AnimatePresence, motion } from "motion/react";
 import "./globals.css";
+import { FadeUp } from "./components/animations/FadeUp";
 
 export default function Home() {
   return (
@@ -24,36 +24,36 @@ export default function Home() {
 
       <main className="h-full relative">
         <StickyBook />
-        <div className="absolute left-1/2 top-70 -translate-1/2 w-full text-center">
-          <p className="tracking-[10px] font-bold">BEM VINDO</p>
-          <h1 className="text-8xl max-lg:text-6xl max-md:text-4xl font-extrabold tracking-tighter bg-transparent">
-            CADEIRADA ESTÚDIO
-          </h1>
-          <p className="text-lg max-lg:text-sm">
-            obrigado por limpar essa bangunça hehe
-          </p>
-          <p className="mt-5 font-black">
-            Acesse{" "}
-            <Link className="text-hover" href="/design">
-              DESIGN ↗ 
-            </Link>{" "}
-            para saber mais{" "}
-          </p>
-        </div>
 
-        <AnimatePresence>
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: 20 }}
-              
-              transition={{ duration: 0.5, delay: 1}}
-              className="fixed bottom-10 right-10 font-extrabold"
-            >
-              <p className="max-md:hidden">CLIQUE E ARRASTE AS CADEIRAS</p>
-              <p className="md:hidden">ARRASTE AS CADEIRAS</p>
-            </motion.div>
-        </AnimatePresence>
+        
+          <div className="absolute left-1/2 top-70 -translate-1/2 w-full text-center">
+            <FadeUp >
+            <p className="tracking-[10px] font-bold">BEM VINDO</p>
+              <h1 className="text-8xl max-lg:text-6xl max-md:text-4xl font-extrabold tracking-tighter bg-transparent">
+                CADEIRADA ESTÚDIO
+              </h1>
+              <p className="text-lg max-lg:text-sm">
+                obrigado por limpar essa bangunça hehe
+              </p>
+              <p className="mt-5 font-black">
+                Acesse{" "}
+                <Link className="text-hover" href="/design">
+                  DESIGN ↗ 
+                </Link>{" "}
+                para saber mais{" "}
+              </p>
+            </FadeUp>
+          </div>
+        
+
+        <FadeUp delay={3}>
+          <div
+            className="fixed bottom-10 right-10 font-extrabold"
+          >
+            <p className="max-md:hidden">CLIQUE E ARRASTE AS CADEIRAS</p>
+            <p className="md:hidden">ARRASTE AS CADEIRAS</p>
+          </div>
+        </FadeUp>
 
       </main>
 

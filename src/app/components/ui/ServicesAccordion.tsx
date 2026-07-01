@@ -51,7 +51,7 @@ export default function ServicesAccordion() {
               {item.title}
             </h1>
             <span
-                className={`inline-block transition-all duration-200 ease-out ${
+                className={`inline-block transition-all duration-300 ease-out ${
                   active === item.id ? "scale-100 rotate-0" : "scale-0 rotate-180"
                 }`}
               >
@@ -60,7 +60,7 @@ export default function ServicesAccordion() {
           </div>
 
           <div
-            className={`flex flex-col gap-1 items-start text-sm font-semibold transition-all duration-300 ${active === item.id ? "h-12" : "h-0"}`}
+            className={`flex flex-col gap-1 items-start text-sm font-semibold transition-all duration-500 ${active === item.id ? "h-12" : "h-0"}`}
           >
             <div className="w-full h-px bg-foreground opacity-20"></div>
             <ul className="flex gap-2">

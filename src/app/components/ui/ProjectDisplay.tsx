@@ -42,9 +42,11 @@ export default function ProjectDisplay(props: any) {
                 <div className="sticky top-20 flex flex-col gap-2">
                   <h3 className="font-extrabold text-4xl">NOSSOS SERVIÇOS</h3>
                   <div className="flex gap-3 flex-wrap">
+
                     {data.services.map(item => (
-                      <p className="bg-main px-1 text-2xl font-extrabold uppercase cursor-pointer text-hover">{item}</p>
+                      <p key={item} className="bg-main px-1 text-2xl font-extrabold uppercase cursor-pointer text-hover">{item}</p>
                     ))}
+
                   </div>
                 </div>
               </div>
