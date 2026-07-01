@@ -35,7 +35,7 @@ export default function Home() {
           <p className="mt-5 font-black">
             Acesse{" "}
             <Link className="text-hover" href="/design">
-              DESIGN ↗
+              DESIGN ↗ 
             </Link>{" "}
             para saber mais{" "}
           </p>

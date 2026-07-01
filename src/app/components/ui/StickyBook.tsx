@@ -34,7 +34,7 @@ export default function StickyBook() {
       rotation: Math.random() * 8 - 4,
       z: Math.floor(Math.random() * 5) + 1,
       scale: 0.8,
-      index: Math.floor(Math.random() * 2)
+      index: Math.floor(Math.random() * 3)
     }));
 
     setStickies(data);

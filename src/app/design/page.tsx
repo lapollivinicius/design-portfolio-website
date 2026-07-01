@@ -1,6 +1,9 @@
 import Header from "../components/layout/Header";
-import Hero from "../components/layout/Design";
+import Design from "../components/layout/Design";
 import Logo from "../components/ui/Logo";
+import { Suspense } from "react";
+
+
 
 export default function Page() {
 
@@ -9,7 +12,9 @@ export default function Page() {
       <Logo />
       <Header />
       <main>
-        <Hero />
+        <Suspense fallback={<div>Loading...</div>}>
+          <Design />
+        </Suspense>
       </main>
     </div>
   )

@@ -10,6 +10,8 @@ import { useEffect } from "react";
 import {  useSearchParams } from "next/navigation";
 import Star from "../ui/Star";
 
+
+
 const items = [
   { id: "home", label: "Home"},
   { id: "about", label: "Sobre" },
